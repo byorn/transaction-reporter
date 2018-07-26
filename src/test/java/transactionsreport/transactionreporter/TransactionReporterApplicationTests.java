@@ -1,16 +1,24 @@
 package transactionsreport.transactionreporter;
-
+import static org.assertj.core.api.Assertions.*;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import transactionsreport.transactionreporter.dataaccess.DataAccess;
+import transactionsreport.transactionreporter.dataaccess.FileData;
+import transactionsreport.transactionreporter.dataaccess.FileDataAccessImpl;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+import java.util.List;
+
+
 public class TransactionReporterApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void shouldReadClientTypeFromFile() {
+
+		DataAccess dataAccess = new FileDataAccessImpl("files/TestInput.txt");
+
+		List<FileData> fileDataList = dataAccess.loadData();
+
+		assertThat(fileDataList.get(0).getClientType()).isEqualToIgnoringCase("CL");
+
 	}
 
 }
