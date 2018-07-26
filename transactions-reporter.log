@@ -1,1 +1,13 @@
 2018-07-26 10:39:09.858  INFO 10644 --- [main] FileProcessor                            : starting
+2018-07-26 20:03:41.377  INFO 7500 --- [main] FileProcessor                            : starting
+2018-07-26 20:03:41.407  INFO 7500 --- [main] FileProcessor                            : finished processing data
+2018-07-26 20:03:41.434  INFO 7500 --- [main] FileProcessor                            : finished creating csv file
+2018-07-26 20:09:45.190  INFO 14508 --- [main] FileProcessor                            : starting
+2018-07-26 20:09:45.203  INFO 14508 --- [main] FileProcessor                            : finished processing data
+2018-07-26 20:09:45.215  INFO 14508 --- [main] FileProcessor                            : finished creating csv file
+2018-07-26 20:10:10.796  INFO 10792 --- [main] FileProcessor                            : starting
+2018-07-26 20:10:10.809  INFO 10792 --- [main] FileProcessor                            : finished processing data
+2018-07-26 20:10:10.825  INFO 10792 --- [main] FileProcessor                            : finished creating csv file
+2018-07-26 20:26:47.395  INFO 3428 --- [main] FileProcessor                            : starting
+2018-07-26 20:26:47.407  INFO 3428 --- [main] FileProcessor                            : finished processing data
+2018-07-26 20:26:47.420  INFO 3428 --- [main] FileProcessor                            : finished creating csv file
